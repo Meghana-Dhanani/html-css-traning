@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pricing plans</title>
+
+    <script src="https://kit.fontawesome.com/ee29f5d257.js" crossorigin="anonymous"></script>
+    <!-- <link rel="stylesheet" href="stylesheet.css"> -->
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            background-color: #1d2432;
+            box-sizing: border-box;
+            font-family: sans-serif;
+        }
+
+        .main {
+            padding: 50px;
+        }
+
+        .parent1 {
+            text-align: center;
+        }
+
+        .parent1 p:nth-child(1) {
+            color: #6366f1;
+            font-weight: 400;
+        }
+
+        .parent1 h1 {
+            color: white;
+        }
+
+        .parent1 p:nth-child(n + 2) {
+            color: rgb(218, 215, 215);
+        }
+
+        .parent1 h1 {
+            font-size: 40px;
+            margin-bottom: 10px;
+        }
+
+        .btn {
+            border-radius: 20px;
+            width: 12%;
+            padding: 2px;
+            background-color: #323947;
+            margin: auto;
+            margin-top: 30px;
+        }
+
+        .btn2 {
+            background-color: transparent;
+            border: none;
+            color: white;
+        }
+
+        .btn1 {
+            margin-left: -10%;
+            border-radius: 20px;
+            border: none;
+            padding: 5px;
+            width: 50%;
+            background-color: #6366f1;
+            color: white;
+        }
+
+        .parent2 {
+            display: flex;
+            gap: 20px;
+            padding-top: 20px;
+        }
+
+        .col1 {
+            width: 33.3%;
+            background-color: transparent;
+            border-radius: 10px;
+            color: white;
+            border: 1px solid rgb(99, 99, 99);
+            padding: 25px;
+        }
+
+        .col1 p:nth-child(n+2) {
+            margin-top: 20px;
+            color: rgb(189, 186, 186);
+        }
+
+        .col1 h1 {
+            font-weight: 700;
+            font-size: 40px;
+            margin-top: 10px;
+        }
+
+        .col1 span {
+            font-size: 15px;
+            font-weight: 300;
+            color: rgb(230, 229, 229);
+        }
+
+        .c1 button {
+            width: 100%;
+            padding: 10px;
+            border: none;
+            color: white;
+            margin-top: 15px;
+            background-color: #323947;
+            border-radius: 5px;
+        }
+
+        .c3 button {
+            width: 100%;
+            padding: 10px;
+            border: none;
+            color: white;
+            margin-top: 15px;
+            background-color: #323947;
+            border-radius: 5px;
+        }
+
+        .o {
+            background-color: #6366f1;
+            width: 100%;
+            padding: 10px;
+            border: none;
+            color: white;
+            margin-top: 15px;
+            border-radius: 5px;
+        }
+
+        ul {
+            margin-top: 30px;
+            list-style-type: none;
+        }
+
+        li {
+            padding-bottom: 15px;
+        }
+
+        .items {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        .items button {
+            border: none;
+            border-radius: 20px;
+            background-color: #6366f1;
+            padding: 5px;
+            width: 30%;
+        }
+        .c2 {
+            border: 2px solid #6366f1;
+        }
+        @media only screen and (max-width:700px){
+            .parent2{
+                flex-direction: column;
+                width: 100%;
+            }
+            
+        }
+    </style>
+</head>
+
+<body>
+    <div class="main">
+        <div class="parent1">
+            <p>Pricing</p>
+            <h1>Pricing plans for teams of all sizes</h1>
+            <p>Choose an affordable plan that's packes with the best features for engaging <br>your audience,creating
+                cusomer loyalty,and driving sales.</p>
+            <div class="btn">
+                <button class="btn1">Monthly</button>
+                <button class="btn2">Annually</button>
+            </div>
+        </div>
+        <div class="parent2">
+            <div class="col1 c1">
+                <h3>Freelancer</h3>
+                <p>The essentials to provide ypur best work for clients.</p>
+                <h1>$15<span>/month</span></h1>
+                <button>Buy plan</button>
+                <ul>
+                    <li><i class="fa-solid fa-check"></i> 5 products</li>
+                    <li><i class="fa-solid fa-check"></i> Up to 1,000 subscribers</li>
+                    <li><i class="fa-solid fa-check"></i> Basic analytics</li>
+                    <li><i class="fa-solid fa-check"></i> 48-hours support response time</li>
+                </ul>
+            </div>
+            <div class="col1 c2">
+                <div class="items">
+                    <h3>Startup</h3>
+                    <button>Most popular</button>
+                </div>
+                <p class="a">A plan that scales with your rapidly growing business.</p>
+                <h1>$30<span>/month</span></h1>
+                <button class="o">Buy plan</button>
+                <ul>
+                    <li><i class="fa-solid fa-check"></i> 25 products</li>
+                    <li><i class="fa-solid fa-check"></i> Up tp 10,000 Subscribers</li>
+                    <li><i class="fa-solid fa-check"></i> Advanced analytics</li>
+                    <li><i class="fa-solid fa-check"></i> 24-hours supports respone time</li>
+                    <li><i class="fa-solid fa-check"></i> Marketing automations</li>
+                </ul>
+            </div>
+            <div class="col1 c3">
+                <h3>Entreprise</h3>
+                <p>Dedicated support and infrastructure for your company</p>
+                <h1>$48<span>/month</span></h1>
+                <button>Buy plan</button>
+                <ul>
+                    <li><i class="fa-solid fa-check"></i> Unlimited products</li>
+                    <li><i class="fa-solid fa-check"></i> Unlimited Subscribers</li>
+                    <li><i class="fa-solid fa-check"></i> Advanced analytics</li>
+                    <li><i class="fa-solid fa-check"></i> 1--hour, dedicated supports respone time</li>
+                    <li><i class="fa-solid fa-check"></i> Marketing automations</li>
+                    <li><i class="fa-solid fa-check"></i> Custom reporting tools</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
