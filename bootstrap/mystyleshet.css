@@ -1,0 +1,152 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  overflow-x: hidden;
+}
+nav {
+  color: white;
+}
+.nav-item1 {
+  width: 30%;
+  margin-left: 20px;
+}
+.nav-item2 {
+  width: 40%;
+  margin-right: 20px;
+  font-size: 20px;
+  overflow-x: hidden;
+}
+.nav-item2 ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  list-style-type: none;
+}
+
+.main {
+  width: 100vw;
+  height: 100vh;
+  text-align: center;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-color: rgb(58, 73, 73);
+}
+.main p {
+  font-size: 15px;
+  color: rgb(190, 195, 190);
+}
+.main h1 {
+  text-transform: uppercase;
+  font-size: 50px;
+}
+.btn {
+  text-transform: uppercase;
+}
+.gallery-sect {
+  background-color: rgb(88, 75, 75);
+  color: white;
+  text-align: center;
+}
+.gallery-sect h1 {
+  padding-top: 80px;
+}
+.gallery {
+  display: flex;
+  gap: 30px;
+  width: 100%;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+.color-card {
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+}
+.card {
+  border: 4px solid;
+  border-image: linear-gradient(red, rgb(226, 4, 122)) 1;
+  animation: all 2s ease-in infinite;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+@keyframes all {
+  50% {
+    border-image: linear-gradient(360deg, red, rgb(251, 255, 20)) 1;
+  }
+}
+.carousel {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50%;
+  height: 50%;
+}
+.warbrobe-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.carousel-item {
+  width: 100%;
+  height: 100%;
+}
+.carousel-item img {
+  width: 100%;
+  height: 100%;
+}
+.nav-itm3 {
+  width: 50%;
+}
+.offcanvas-body p {
+  background-color: rgb(116, 116, 116);
+}
+
+.offcanvas-body ul li {
+  padding: 10px;
+  text-align: center;
+}
+.offcanvas-body ul li:hover {
+  background-color: rgb(71, 70, 68);
+}
+footer {
+  background-color: rgb(131, 127, 127);
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.footer1 {
+  width: 30%;
+}
+
+.font-size-footer {
+  font-size: 25px;
+  padding-top: 10px;
+}
+@media screen and (max-width: 700px) {
+  .responsive-nav2 {
+    display: none;
+  }
+}
+.gallery {
+  width: 60%;
+}
+.Wardrobe-section {
+  padding-bottom: 30px;
+}
+.galler-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+.nav3-center {
+  margin-right: 30px;
+}
