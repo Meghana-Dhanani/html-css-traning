@@ -1,0 +1,97 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(255, 255, 255);
+    width:100%;
+}
+.logo{
+    width:20%;
+}
+.nav-items{
+    width:60%;
+    font-size: 20px;
+    margin-right: 20px;
+
+}
+.nav-items ul{
+    display:flex;
+    justify-content: space-between;
+    list-style-type: none;
+}
+.sub-menu{
+    display: none;
+}
+.nav-items .drop1:hover .sub-menu{
+    display: block;
+    position: absolute;
+   background-color:rgb(216, 216, 216);
+}
+s i{
+    margin-left: 20px;
+}
+
+.nav-items ul li:hover{
+    color:red;
+}
+.nav-items .drop1:hover .sub-menu ul{
+    display: block;
+}
+.nav-items .drop1:hover .sub-menu ul li{
+    border-bottom: 2px solid black;
+    padding-top: 10px;
+    color:black
+
+}
+.nav-items:hover .sub-menu ul li:last-child{
+    border-bottom: none;
+}
+.sub-menu-2{
+    display: none;
+}
+.hover-me:hover .sub-menu-2{
+    display: block;
+    position: absolute;
+   background-color:rgb(82, 211, 22);
+   margin-left: 130px;
+   margin-top: -20px;
+   width: 100%;
+}
+.sub-menu-3{
+    display: none;
+}
+.hover-me2:hover .sub-menu-3{
+    display: block;
+    position: absolute;
+   background-color:rgb(82, 211, 22);
+   margin-left: 130px;
+   margin-top: -20px;
+   width: 100%;
+}
+.megamenu2 ul li{
+    display:none;
+}
+.megamenu2:hover .sub-menu-4{
+    position: absolute;
+    display: block;
+   background-color:rgb(242, 242, 242);
+   width: 10%;
+   border-bottom: 2px solid black;
+   padding-top: 10px;
+   color:black;
+}
+.megamenu2:hover .sub-menu-4 ul li{
+    display: block;
+    color: black;
+}
+.sub-menu-4 ul{
+    display: block;
+    color: black;
+}
+
+
