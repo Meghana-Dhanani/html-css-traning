@@ -1,0 +1,43 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.main {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgb(249, 249, 255);
+}
+.parent {
+  position: absolute;
+  top: 0;
+  transform: translate(0%, 50%);
+  display: flex;
+  gap: 15px;
+  padding: 100px 20px 100px 20px;
+}
+
+.div1 {
+  width: 25%;
+  height: 50%;
+  position: relative;
+}
+.div1::after {
+  position: absolute;
+  content: "";
+  border: 1px solid black;
+  width: 60%;
+  right: 10px;
+  top: 7px;
+}
+h3 {
+  margin-top: 30px;
+}
+li{
+    color:rgb(96, 96, 201);
+    font-weight: 800;
+}
+p{
+    margin-top: 10px;
+}
